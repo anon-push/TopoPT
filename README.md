@@ -223,7 +223,7 @@ If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{topopt2026,
-    title={{...}},
+    title={{Relational Feature Distillation for Lightweight 3D Point Cloud Segmentation}},
     author={Anonymous},
     booktitle={...},
     year={2026}
