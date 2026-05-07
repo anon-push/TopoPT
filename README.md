@@ -223,9 +223,9 @@ If you find this work useful, please cite:
 
 ```bibtex
 @inproceedings{topopt2026,
-    title={{TopoPT: Compressing Serialized 3D Point Transformers with Stage-wise Relational Feature Distillation}},
+    title={{...}},
     author={Anonymous},
-    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    booktitle={...},
     year={2026}
 }
 ```
