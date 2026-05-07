@@ -1,7 +1,7 @@
 <div align="center">
 <h1>TopoPT: Compressing Serialized 3D Point Transformers with Stage-wise Relational Feature Distillation</h1>
 
-**CVPR 2026** *(anonymous submission)*
+**NeurIPS 2026** *(anonymous submission)*
 
 <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-TopoPT-red" alt="Paper PDF"></a>
 <a href="https://github.com/anon-push/TopoPT"><img src="https://img.shields.io/badge/GitHub-TopoPT-blue" alt="GitHub"></a>
