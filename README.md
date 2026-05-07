@@ -1,5 +1,5 @@
 <div align="center">
-<h1>TopoPT: Compressing Serialized 3D Point Transformers with Stage-wise Relational Feature Distillation</h1>
+<h1>Relational Feature Distillation for Lightweight 3D Point Cloud Segmentation</h1>
 
 **NeurIPS 2026** *(anonymous submission)*
 
