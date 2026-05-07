@@ -19,8 +19,7 @@
 
 ## News
 
-- **2026-XX-XX:** TopoPT is accepted to CVPR 2026.
-- **2025-XX-XX:** Paper, code, and models are released.
+- **2026-XX-XX:** TopoPT is here.
 
 ## Method Overview
 
