@@ -17,6 +17,8 @@
 - **SRFD** is a training-only objective that matches pairwise cosine-similarity matrices between teacher (LitePT-S) and student (TrimPT) features at the compressed attention stages (stages 3–4). The teacher and projection heads are discarded after training, so **TopoPT has the same inference architecture, checkpoint size, FLOPs, and latency as TrimPT**.
 - On **ScanNet semantic segmentation**, TopoPT reaches **76.6% mIoU** — matching the official LitePT-S result (76.5%) with 2.18× fewer parameters and 1.96× fewer FLOPs.
 
+![TopoPT Teaser](https://github.com/anon-push/TopoPT/blob/main/image/teaser.jpg)
+
 ## News
 
 - **2026-XX-XX:** TopoPT is here.
@@ -37,6 +39,8 @@ TrimPT is derived from LitePT-S via a controlled compression study across three 
 
 TrimPT combines depth and width reduction while **preserving the 1024-token attention window**, yielding channels `(36, 54, 108, 180, 360)` and stage depths `(2, 2, 2, 4, 2)`.
 
+![TrimPT Architecture](https://github.com/anon-push/TopoPT/blob/main/image/backbone.jpg)
+
 ### SRFD: Stage-wise Relational Feature Distillation
 
 SRFD is applied at stages 3 and 4 (the compressed attention stages). At each stage, a learned projector maps student features to the teacher's dimension. The training loss combines:
@@ -51,6 +55,8 @@ L = L_seg + α·L_pw + β·L_rel    (α=1.0, β=2.0)
 ```
 
 After training, the teacher and projectors are discarded. **TopoPT inference is identical to TrimPT inference.**
+
+![SRFD Method](https://github.com/anon-push/TopoPT/blob/main/image/srfd.jpg)
 
 ## Preparation
 
@@ -140,6 +146,8 @@ The following checkpoints correspond to the compression ablation study in the pa
 | LW-C (= TrimPT) | Depth + width reduction | 5.8M | 74.9 | [Download](https://huggingface.co/cogniperceptai/TopoPT/tree/main/scannet-semseg-lw-c-100epoch/model) |
 | LW-D | Patch size reduction only | 12.7M | 74.2 | [Download](https://huggingface.co/cogniperceptai/TopoPT/tree/main/scannet-semseg-lw-d-100epoch/model) |
 | LW-E | Depth + width + patch | 5.8M | 74.1 | [Download](https://huggingface.co/cogniperceptai/TopoPT/tree/main/scannet-semseg-lw-e-100epoch/model) |
+
+![Ablation: Accuracy-Efficiency](https://github.com/anon-push/TopoPT/blob/main/image/ablation.jpg)
 
 ## Training
 
