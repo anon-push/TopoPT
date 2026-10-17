@@ -1,11 +1,18 @@
+
 <div align="center">
 <h1>Relational Feature Distillation for Lightweight 3D Point Cloud Segmentation</h1>
 
-**NeurIPS 2026** *(anonymous submission)*
+**NeurIPS 2026**
+
+<p><strong>The final version of this repository is available at:</strong></p>
+
+<p><a href="https://github.com/m-saeid/TopoPT">https://github.com/m-saeid/TopoPT</a></p>
+
+<p>Please refer to the official repository for the latest code and updates.</p>
 
 <a href="https://arxiv.org/abs/XXXX.XXXXX"><img src="https://img.shields.io/badge/arXiv-TopoPT-red" alt="Paper PDF"></a>
-<a href="https://github.com/anon-push/TopoPT"><img src="https://img.shields.io/badge/GitHub-TopoPT-blue" alt="GitHub"></a>
-<a href="https://huggingface.co/cogniperceptai/TopoPT"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue" alt="HF Model"></a>
+<a href="https://github.com/anon-push/TopoPT"><img src="https://img.shields.io/badge/GitHub-TopoPT-blue" alt="Original Anonymous Repository"></a>
+<a href="https://huggingface.co/cogniperceptai/TopoPT"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue" alt="Hugging Face Model"></a>
 
 </div>
 
